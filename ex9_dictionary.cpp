@@ -40,10 +40,11 @@ int main() {
     //#TODO call function lookup_word() with either
     //   a string variable or a literal string
 
-    //int index = lookup_word("dog");
+    string definition;
+    //int index = lookup_word("dog", definition);
 
     string word = "cat";
-    //int index = lookup_word(word);
+    //int index = lookup_word(word, definition);
 
     // #TODO display the definition, or a not found message
 }
