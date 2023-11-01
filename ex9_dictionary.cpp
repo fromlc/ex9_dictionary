@@ -24,6 +24,7 @@ namespace dict {
         "quacks and has webbed feet",
     };
 
+    // determine the number of words in our dictionary array dict::words[]
     int num_words = sizeof(words) / sizeof(string);
 }
 
