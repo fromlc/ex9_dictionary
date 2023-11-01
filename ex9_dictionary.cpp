@@ -85,7 +85,9 @@ int main() {
 // displays all words in dict::words[] array
 //------------------------------------------------------------------------------
 inline void display_dictionary() {
+
     cout << "\nDictionary words: ";
+
     for (int i = 0; i < dict::num_words; i++) {
         cout << dict::words[i] << ' ';
     }
